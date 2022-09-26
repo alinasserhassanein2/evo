@@ -26,6 +26,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "worker": "index.js"
+    "worker": "node index.js"
   }
 }
