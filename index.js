@@ -111,3 +111,11 @@ client.on("message", async (message) => {
     message.reply(i18n.__("common.errorCommand")).catch(console.error);
   }
 });
+
+
+var express = require('express');
+var app = express();
+
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
